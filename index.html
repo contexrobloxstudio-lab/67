@@ -1,10 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>My Site</title>
+<meta charset="UTF-8">
+<title>Uncopylocked Games</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(#0b0b40,#1b1b7a);
+color:white;
+text-align:center;
+}
+
+h1{
+margin-top:40px;
+font-size:60px;
+}
+
+.games{
+display:flex;
+justify-content:center;
+gap:60px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.game-card{
+background:#11116d;
+padding:20px;
+border-radius:10px;
+width:260px;
+box-shadow:0 0 15px rgba(0,0,0,0.6);
+}
+
+.game-card img{
+width:100%;
+border-radius:6px;
+}
+
+.download{
+display:inline-block;
+margin-top:15px;
+padding:10px 25px;
+background:#00bfff;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+.download:hover{
+background:#0099cc;
+}
+
+.section{
+margin-top:80px;
+}
+
+</style>
 </head>
+
 <body>
-<h1>Hello</h1>
-<p>My website works</p>
+
+<h1 style="color:red;">POPULAR GAMES</h1>
+
+<div class="games">
+
+<div class="game-card">
+<img src="tsunami.png">
+<h3>Escape tsunami for brainrots</h3>
+<a class="download" href="game1.html">Download</a>
+<p>Uncopylocked game</p>
+</div>
+
+<div class="game-card">
+<img src="brainrot.png">
+<h3 style="color:red;">Steal a brainrot</h3>
+<a class="download" href="game2.html">Download</a>
+<p>Uncopylocked game</p>
+</div>
+
+<div class="game-card">
+<img src="knockout.png">
+<h3>Knockout</h3>
+<a class="download" href="game3.html">Download</a>
+<p>Uncopylocked game</p>
+</div>
+
+</div>
+
+<div class="section">
+
+<h1 style="color:#00aaff;">OTHER GAME</h1>
+
+<div class="games">
+
+<div class="game-card">
+<img src="prisonlife.png">
+<h3>Prison Life</h3>
+<a class="download" href="game4.html">Download</a>
+<p>Uncopylocked game</p>
+</div>
+
+</div>
+
+</div>
+
 </body>
 </html>
