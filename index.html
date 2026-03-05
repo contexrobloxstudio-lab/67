@@ -1,75 +1,63 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Brainrot Games</title>
+<title>Brainrot Roblox Games</title>
 
 <style>
 
 body{
-font-family: Arial;
-background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
 margin:0;
+font-family:Arial;
+background:linear-gradient(120deg,#0f2027,#203a43,#2c5364);
 color:white;
-text-align:center;
 }
 
-header{
+h1{
+text-align:center;
 padding:30px;
-font-size:35px;
-font-weight:bold;
+font-size:40px;
 }
 
 .games{
-display:flex;
+display:grid;
+grid-template-columns:repeat(auto-fit,250px);
 justify-content:center;
 gap:40px;
-flex-wrap:wrap;
 padding:40px;
 }
 
 .game-card{
 background:#1e293b;
 border-radius:15px;
-width:260px;
 padding:20px;
-box-shadow:0 10px 25px rgba(0,0,0,0.4);
+text-align:center;
+box-shadow:0 10px 30px rgba(0,0,0,0.5);
 transition:0.3s;
 }
 
 .game-card:hover{
-transform:translateY(-10px);
-box-shadow:0 15px 35px rgba(0,0,0,0.6);
+transform:scale(1.05);
 }
 
 .game-card img{
 width:100%;
 border-radius:10px;
+margin-bottom:10px;
 }
 
-.game-card h3{
-margin:15px 0 10px 0;
-}
-
-.game-card p{
-color:#cbd5e1;
-}
-
-.download-btn{
+.download{
 display:inline-block;
-margin-top:15px;
-padding:12px 20px;
+margin-top:10px;
+padding:10px 20px;
 background:#3b82f6;
 color:white;
 text-decoration:none;
 border-radius:8px;
 font-weight:bold;
-transition:0.2s;
 }
 
-.download-btn:hover{
+.download:hover{
 background:#2563eb;
-transform:scale(1.05);
 }
 
 </style>
@@ -77,18 +65,28 @@ transform:scale(1.05);
 
 <body>
 
-<header>
-Brainrot Roblox Games
-</header>
+<h1>Brainrot Roblox Games</h1>
 
 <div class="games">
 
 <div class="game-card">
-<img src="tsunami.png">
+<img src="https://tr.rbxcdn.com/180DAY-4c7b6c02cbbd4e1d79d6f89a1d9f9f3c/768/432/Image/Webp/noFilter">
 <h3>Escape Tsunami</h3>
 <p>Uncopylocked Roblox game</p>
 
-<a class="download-btn" href="escape-tsunami.rbxl" download>
+<a class="download" href="Escape tsunami Maybe modded (5).rbxl" download>
+Download
+</a>
+
+</div>
+
+
+<div class="game-card">
+<img src="https://tr.rbxcdn.com/180DAY-dfa64c1e0d0c8e75401228be7baac704/768/432/Image/Webp/noFilter">
+<h3>Steal a Brainrot</h3>
+<p>Steal brainrots and win</p>
+
+<a class="download" href="steal-brainrot.rbxl" download>
 Download
 </a>
 
