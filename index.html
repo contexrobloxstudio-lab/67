@@ -1,62 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 <meta charset="UTF-8">
-<title>Uncopylocked Games</title>
+<title>Brainrot Games</title>
 
 <style>
 
 body{
+font-family: Arial;
+background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
 margin:0;
-font-family:Arial;
-background:linear-gradient(#0b0b40,#1b1b7a);
 color:white;
 text-align:center;
 }
 
-h1{
-margin-top:40px;
-font-size:60px;
+header{
+padding:30px;
+font-size:35px;
+font-weight:bold;
 }
 
 .games{
 display:flex;
 justify-content:center;
-gap:60px;
-margin-top:40px;
+gap:40px;
 flex-wrap:wrap;
+padding:40px;
 }
 
 .game-card{
-background:#11116d;
-padding:20px;
-border-radius:10px;
+background:#1e293b;
+border-radius:15px;
 width:260px;
-box-shadow:0 0 15px rgba(0,0,0,0.6);
+padding:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+transition:0.3s;
+}
+
+.game-card:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 35px rgba(0,0,0,0.6);
 }
 
 .game-card img{
 width:100%;
-border-radius:6px;
+border-radius:10px;
 }
 
-.download{
+.game-card h3{
+margin:15px 0 10px 0;
+}
+
+.game-card p{
+color:#cbd5e1;
+}
+
+.download-btn{
 display:inline-block;
 margin-top:15px;
-padding:10px 25px;
-background:#00bfff;
+padding:12px 20px;
+background:#3b82f6;
 color:white;
 text-decoration:none;
-border-radius:6px;
+border-radius:8px;
 font-weight:bold;
+transition:0.2s;
 }
 
-.download:hover{
-background:#0099cc;
-}
-
-.section{
-margin-top:80px;
+.download-btn:hover{
+background:#2563eb;
+transform:scale(1.05);
 }
 
 </style>
@@ -64,48 +77,20 @@ margin-top:80px;
 
 <body>
 
-<h1 style="color:red;">POPULAR GAMES</h1>
+<header>
+Brainrot Roblox Games
+</header>
 
 <div class="games">
 
 <div class="game-card">
 <img src="tsunami.png">
-<h3>Escape tsunami for brainrots</h3>
-<a class="download" href="game1.html">Download</a>
-<p>Uncopylocked game</p>
-</div>
-<a href="Escape%20tsunami%20Maybe%20modded%20(5).rbxl" download>
-<button>Download</button>
+<h3>Escape Tsunami</h3>
+<p>Uncopylocked Roblox game</p>
+
+<a class="download-btn" href="escape-tsunami.rbxl" download>
+Download
 </a>
-
-<div class="game-card">
-<img src="brainrot.png">
-<h3 style="color:red;">Steal a brainrot</h3>
-<a class="download" href="game2.html">Download</a>
-<p>Uncopylocked game</p>
-</div>
-
-<div class="game-card">
-<img src="knockout.png">
-<h3>Knockout</h3>
-<a class="download" href="game3.html">Download</a>
-<p>Uncopylocked game</p>
-</div>
-
-</div>
-
-<div class="section">
-
-<h1 style="color:#00aaff;">OTHER GAME</h1>
-
-<div class="games">
-
-<div class="game-card">
-<img src="prisonlife.png">
-<h3>Prison Life</h3>
-<a class="download" href="game4.html">Download</a>
-<p>Uncopylocked game</p>
-</div>
 
 </div>
 
